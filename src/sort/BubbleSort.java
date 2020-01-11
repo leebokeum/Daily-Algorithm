@@ -17,7 +17,7 @@ public class BubbleSort {
         do{
             swithed = false;
             for(int i= 0; i < number.length-1; i++){
-                if(number[i+1] < number[i]){
+                if(number[i] > number[i+1]){
                     int tmp = number[i+1];
                     number[i+1] = number[i];
                     number[i] = tmp;
