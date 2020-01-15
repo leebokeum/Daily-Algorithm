@@ -1,12 +1,12 @@
 /*
-    ÇÇº¸³ªÄ¡ ¼ö¿­ ¸¸µé±â
+    í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ ë§Œë“¤ê¸°
     an = a-1 + a-2
 
  */
 
 public class Algorithm_3_Fibonacci {
     public static void main(String[] args) {
-        //Ã¹¹øÂ° ¹æ¹ı
+        //ì²«ë²ˆì§¸ ë°©ë²•
         int a[] = new int[100];
         a[0] = 1;
         a[1] = 1;
@@ -21,7 +21,7 @@ public class Algorithm_3_Fibonacci {
 
         System.out.println("");
         
-        //µÎ¹øÂ°¹æ¹ı
+        //ë‘ë²ˆì§¸ë°©ë²•
         int pre = 1;
         int prepre =1;
 

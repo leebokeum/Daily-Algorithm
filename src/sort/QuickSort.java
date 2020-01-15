@@ -1,8 +1,8 @@
 package sort;
 
 /**
- * Äü Á¤·Ä
- * ¼º´É : O(n log n) ÃÖ¾Ç O(n2)
+ * í€µ ì •ë ¬
+ * ì„±ëŠ¥ : O(n log n) ìµœì•… O(n2)
  */
 
 public class QuickSort {

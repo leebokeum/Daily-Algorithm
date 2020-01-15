@@ -1,8 +1,8 @@
 package sort;
 
 /**
- * º´ÇÕ Á¤·Ä
- * ¼º´É : O(n log n), ÃÖ¾ÇÀÇ °æ¿ì (n log n)
+ * ë³‘í•© ì •ë ¬
+ * ì„±ëŠ¥ : O(n log n), ìµœì•…ì˜ ê²½ìš° (n log n)
  */
 
 public class MergeSort {

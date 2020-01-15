@@ -1,12 +1,30 @@
 package sort;
 
+import java.util.Arrays;
+
 /**
- * »ðÀÔ Á¤·Ä
- * ¼º´É :
+ * ì‚½ìž… ì •ë ¬
+ * ì„±ëŠ¥ : O(n2)
  */
 
 public class InsertSort {
     public static void main(String[] args) {
+        int[] list = {88, 42, 2, 34, 43, 4, 66, 3, 6, 1};
+
+        int temp;
+        int j;
+
+        for(int i = 1; i < list.length; i++){ //íšŒì°¨
+            System.out.println(Arrays.toString(list));
+            temp = list[i];
+            for( j=i-1; j>= 0 &&  list[j] > temp; j--){
+                list[j+1] = list[j];
+            }
+
+            list[j+1] = temp;
+        }
+
+        System.out.println("ìµœì¢… : " + Arrays.toString(list));
 
     }
 }

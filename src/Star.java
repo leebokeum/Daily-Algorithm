@@ -1,20 +1,20 @@
 public class Star {
     /**
-     * º°Âï±â
+     * ë³„ì°ê¸°
      *
      * @param args
      */
     public static void main(String[] args) {
 
         /**
-         * 1¹ø º°Âï±â
+         * 1ë²ˆ ë³„ì°ê¸°
          * *
          * **
          * ***
          * ****
          * *****
          */
-        System.out.println("1¹ø º°Âï±â");
+        System.out.println("1ë²ˆ ë³„ì°ê¸°");
         for(int i=0; i < 5; i++){
             for(int j=0; j<=i; j++){
                 System.out.printf("%s", "*");
@@ -23,7 +23,7 @@ public class Star {
         }
 
         /**
-         * 2¹ø º°Âï±â
+         * 2ë²ˆ ë³„ì°ê¸°
          * *****
          * ****
          * ***
@@ -31,7 +31,7 @@ public class Star {
          * *
          */
 
-        System.out.println("2¹ø º°Âï±â");
+        System.out.println("2ë²ˆ ë³„ì°ê¸°");
         for(int i=0; i < 5; i++){
             for(int j=0; j<=4-i; j++){
                 System.out.printf("%s", "*");

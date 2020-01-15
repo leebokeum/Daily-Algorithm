@@ -5,16 +5,16 @@ import java.util.Scanner;
 
 public class Algorithm_2_Student {
     /*
-        ÇĞ»ı Á¤º¸µéÀ» ÀúÀåÇÏ°í, ÇĞ»ıÀÌ¸§À¸·Î °Ë»öÇßÀ» ¶§ ÇĞ¹øÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥ ÀÛ¼º
+        í•™ìƒ ì •ë³´ë“¤ì„ ì €ì¥í•˜ê³ , í•™ìƒì´ë¦„ìœ¼ë¡œ ê²€ìƒ‰í–ˆì„ ë•Œ í•™ë²ˆì„ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ë¨ ì‘ì„±
 
-        Student Å¬·¡½º »ı¼º
-        name, no(ÀÌ¸§°ú ÇĞ¹ø)
+        Student í´ë˜ìŠ¤ ìƒì„±
+        name, no(ì´ë¦„ê³¼ í•™ë²ˆ)
 
-        ÇĞ»ıµéÀ» ArrayList¿¡ ÀúÀåÇÑ ÀÌÈÄ °è¼Ó °Ë»öÇÏ°Ú´À³Ä y -> ¹İº¹
-        Á¾·áÇÏ°í ½ÍÀ¸¸é n  -> ÇÁ·Î±×·¥ Á¾·á
+        í•™ìƒë“¤ì„ ArrayListì— ì €ì¥í•œ ì´í›„ ê³„ì† ê²€ìƒ‰í•˜ê² ëŠëƒ y -> ë°˜ë³µ
+        ì¢…ë£Œí•˜ê³  ì‹¶ìœ¼ë©´ n  -> í”„ë¡œê·¸ë¨ ì¢…ë£Œ
 
-        ÇĞ»ı ÀÌ¸§ÀÌ ÀÖ´Â °æ¿ì ±× ÇĞ»ıÀÇ ÇĞ¹øÀ» Ãâ·Â
-        ÇĞ»ı ÀÌ¸§ÀÌ ¾øÀ¸¸é, ¾ø´Â ÇĞ»ıÀÌ¸§ÀÌ¶ó°í Ãâ·Â
+        í•™ìƒ ì´ë¦„ì´ ìˆëŠ” ê²½ìš° ê·¸ í•™ìƒì˜ í•™ë²ˆì„ ì¶œë ¥
+        í•™ìƒ ì´ë¦„ì´ ì—†ìœ¼ë©´, ì—†ëŠ” í•™ìƒì´ë¦„ì´ë¼ê³  ì¶œë ¥
      */
 
     static class Student {
@@ -30,16 +30,16 @@ public class Algorithm_2_Student {
 
         ArrayList<Student> students = new ArrayList<>();
 
-        students.add(new Student("ÀÌº¹À½", "870422"));
-        students.add(new Student("ÇÑ¾Æ¸§", "871009"));
+        students.add(new Student("ì´ë³µìŒ", "870422"));
+        students.add(new Student("í•œì•„ë¦„", "871009"));
 
         while(true) {
-            System.out.print("°è¼Ó °Ë»öÇÏ°í ½ÍÀ¸¸é y, Á¾·áÇÏ°í ½ÍÀ¸¸é n");
+            System.out.print("ê³„ì† ê²€ìƒ‰í•˜ê³  ì‹¶ìœ¼ë©´ y, ì¢…ë£Œí•˜ê³  ì‹¶ìœ¼ë©´ n");
             Scanner sc = new Scanner(System.in);
             String flag = sc.next();
 
             if(flag.equals("y")){
-                System.out.print("ÇĞ»ı ÀÌ¸§À» ÀÔ·ÂÇØÁÖ¼¼¿ä");
+                System.out.print("í•™ìƒ ì´ë¦„ì„ ì…ë ¥í•´ì£¼ì„¸ìš”");
                 sc = new Scanner(System.in);
                 String name = sc.next();
                 Student student= null;
@@ -51,14 +51,14 @@ public class Algorithm_2_Student {
                 }
 
                 if(student != null){
-                    System.out.printf("ÇĞ¹ø : %s", student.no);
+                    System.out.printf("í•™ë²ˆ : %s", student.no);
                     System.out.println("");
                 }else {
-                    System.out.println("¾ø´Â ÇĞ»ıÀÔ´Ï´Ù.");
+                    System.out.println("ì—†ëŠ” í•™ìƒì…ë‹ˆë‹¤.");
                 }
 
             }else{
-                System.out.print("ÇÁ·Î±×·¥Á¾·á");
+                System.out.print("í”„ë¡œê·¸ë¨ì¢…ë£Œ");
                 break;
             }
         }

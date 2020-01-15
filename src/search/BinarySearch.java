@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ÀÌÁø °Ë»ö
- * Á¤·ÄµÈ ¸®½ºÆ®ÀÇ ¼Ó¼ºÀ» ÀÌ¿ëÇÑ´Ù´Â Æ¯Â¡ÀÌ ÀÖ´Ù.
- * O(n) ¼º´É
+ * ì´ì§„ ê²€ìƒ‰
+ * ì •ë ¬ëœ ë¦¬ìŠ¤íŠ¸ì˜ ì†ì„±ì„ ì´ìš©í•œë‹¤ëŠ” íŠ¹ì§•ì´ ìˆë‹¤.
+ * O(n) ì„±ëŠ¥
  */
 public class BinarySearch {
     public static void main(String[] args) {
